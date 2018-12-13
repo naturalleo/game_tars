@@ -1,0 +1,25 @@
+#include "Common.tars"
+
+
+module HappyWms
+{
+
+	struct fruitTigerJackpotReq
+	{
+		0  require int		req_time;
+	};
+
+	struct fruitTigerJackpotResp
+	{
+		0 require commonJackpotDesc 	desc;
+		1 require int 					resq_time;
+	};	
+
+
+interface Fruit
+{
+    int getfruitTigerJackpot(fruitTigerJackpotReq req, out fruitTigerJackpotResp res);
+
+};
+
+}; 

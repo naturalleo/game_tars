@@ -1,0 +1,10 @@
+
+module HappyWms
+{
+
+interface NoHttp
+{
+    int test();
+};
+
+}; 

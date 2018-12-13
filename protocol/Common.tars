@@ -1,0 +1,22 @@
+
+module HappyWms
+{
+	
+	struct commonJackpotDesc
+	{
+		0  require int		game_id;
+		1  require int 		current_money; //可以为负数
+		2  require int 		change_value;  //可以为负数
+		3  require string   log;  
+
+
+		4  optional int      para_1; // 以后扩展使用
+		5  optional int      para_2;
+		6  optional int      para_3;
+		7  optional int      para_4;
+		8  optional int      para_5;		
+		
+	};
+
+
+}; 

@@ -1,0 +1,12 @@
+#include "Common.tars"
+
+
+module HappyWms
+{
+
+interface Hall
+{
+    int test();
+};
+
+}; 
